@@ -1,5 +1,6 @@
 import { StrictMode, Fragment, useState } from "react";
 import Header from "./components/Header";
+import Catalog from "./components/Catalog";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -7,7 +8,7 @@ const App = () => {
         <Fragment>
             <Header />
 
-            <section>Тело страницы</section>
+            <Catalog />
 
             <Footer />
         </Fragment>
