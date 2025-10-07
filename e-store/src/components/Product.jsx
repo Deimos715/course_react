@@ -45,7 +45,7 @@ const productData = [
 
 const Product = () => {
     return (
-        <li>
+        <li className="product">
             <img src={productData[1].photoName} alt={productData.name} />
             <div>
                 <h3>{productData[1].name}</h3>

@@ -2,8 +2,8 @@ import Product from "./Product";
 
 const Catalog = () => {
     return (
-        <main>
-            <ul>
+        <main className="catalog">
+            <ul className="products">
                 <Product />
             </ul>
 
